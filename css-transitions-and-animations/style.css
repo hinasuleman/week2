@@ -13,16 +13,16 @@
     border-radius: 50%;
 } */
 
-
-----------/*Animations*/-------
-.square {
+/*Animations*/
+.rectangle{
     width: 300px;
     height: 100px;
     background-color: blue ;
     animation-name: button;
-animation-duration: 4s;
+    animation-duration: 4s;
 }
-/*.square.square: hover{
+
+.rectangle:hover{
     border-radius: 50%;
 }
 @keyframes button { 
@@ -32,12 +32,11 @@ animation-duration: 4s;
     }
     50% {
         background-color:aqua ;
-        box-shadow: 6px 6px 0 darkgray;
+        box-shadow: 6px 6px 0 darkslategray;
 
     }
     100% {
-        background-color: violet;
+        background-color:whitesmoke;
         box-shadow: 6px 6px 0 black;
-
     }
-}*/
+}
